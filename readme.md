@@ -1,6 +1,7 @@
 # TruSql
 
 TruSql is a SQL query builder for dynamically constructing and validating queries at runtime.
+Try it yourself at [PLAYGROUND](https://indra-putra2.github.io/TruSqlShowcase/)
 
 ## Features
 
