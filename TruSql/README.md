@@ -10,12 +10,6 @@ TruSql is a SQL query builder for dynamically constructing and validating querie
 - Support for filtering, column selection, joins, and supported SQL expressions
 - Optional database integration
 
-## Installation
-
-```bash
-dotnet add package TruSql
-```
-
 ## Quick Start
 
 See the example below for a basic query-building workflow.
@@ -72,4 +66,4 @@ Operator supported by this library is as follow:
 
 ## License
 
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+This project is licensed under the MIT License. See the [LICENSE](https://github.com/Indra-Putra2/TruSql/blob/master/LICENSE) file for details.

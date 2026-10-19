@@ -1,6 +1,7 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
 	<PropertyGroup>
+		<!-- Build settings -->
 		<TargetFramework>net10.0</TargetFramework>
 		<ImplicitUsings>enable</ImplicitUsings>
 		<Nullable>enable</Nullable>
@@ -8,14 +9,18 @@
 		<!-- NuGet package metadata -->
 		<PackageId>TruSql.Core</PackageId>
 		<Version>1.0.0</Version>
-		<Description>Core expression, parsing, and tokenization functionality for TrueSql.</Description>
-		<PackageOutputPath>./package</PackageOutputPath>
-		<Authors>Indra</Authors>
+		<Description>Core expression, parsing, and tokenization components for TruSql.</Description>
+		<Authors>Indra Putra Gemilang</Authors>
 		<PackageLicenseExpression>MIT</PackageLicenseExpression>
 		<PackageReadmeFile>README.md</PackageReadmeFile>
+		<RepositoryType>git</RepositoryType>
+		<RepositoryUrl>https://github.com/Indra-Putra2/TruSql</RepositoryUrl>
+		<PackageTags>sql query-builder parser tokenizer ast</PackageTags>
+		<Copyright>Copyright © 2026 Indra Putra Gemilang</Copyright>
 	</PropertyGroup>
 
 	<ItemGroup>
-		<None Include="README.md" Pack="true" PackagePath="\" />
+		<None Update="README.md" Pack="true" PackagePath="\" />
 	</ItemGroup>
+
 </Project>
