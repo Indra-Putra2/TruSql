@@ -66,11 +66,16 @@ FROM "Rams" AS "r"
 
 ### Defining a Table Name
 
-You can specify a table name using the `[Table]` attribute:
+You can specify a table name using the `[Table]` attribute from `System.ComponentModel.DataAnnotations.Schema`:
 
 ```csharp
+using System.ComponentModel.DataAnnotations.Schema;
+
 [Table("Rams")]
 public class RamBaseModel
+{
+    // Properties
+}
 ```
 
 If the `[Table]` attribute is not specified, the builder uses the class name as the table name.
