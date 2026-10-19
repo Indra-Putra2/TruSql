@@ -64,12 +64,16 @@ SELECT	"r"."name", "r"."price"
 FROM "Rams" AS "r"
 ```
 
-### Defining table name
-Table can be defined using Table attribute for example
+### Defining a Table Name
+
+You can specify a table name using the `[Table]` attribute:
+
 ```csharp
-    [Table("Rams")]
-    public class RamBaseModel
+[Table("Rams")]
+public class RamBaseModel
 ```
+
+If the `[Table]` attribute is not specified, the builder uses the class name as the table name.
 
 ## How It Works
 
